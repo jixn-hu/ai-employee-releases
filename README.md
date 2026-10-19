@@ -4,10 +4,10 @@
 
 ## 下载
 
-[下载最新 Windows 64 位完整包](https://github.com/jixn-hu/ai-employee-releases/releases/latest/download/AIEmployee-Windows-x64.zip) · [查看版本与更新说明](https://github.com/jixn-hu/ai-employee-releases/releases)
+[下载 Windows 64 位安装包](https://github.com/jixn-hu/ai-employee-releases/releases/download/v0.1.2/AIEmployee-Setup-0.1.2-x64.exe) · [查看最新版本](https://github.com/jixn-hu/ai-employee-releases/releases/latest)
 
-1. 下载 **AIEmployee-Windows-x64.zip** 并完整解压。
-2. 双击 **AIEmployee.exe** 启动，无需 Node.js 或 npm。
+1. 下载 **AIEmployee-Setup-0.1.2-x64.exe** 并运行安装。
+2. 从桌面「AI 超级员工」启动，无需 Node.js 或 npm。
 3. 在「模型与设置」配置自己的大模型接口、模型名称和 API 密钥。
 4. 按需配置插件，再招聘员工、分配账号与连接。
 
@@ -27,6 +27,8 @@
 
 在「模型与设置 → 软件更新」检查更新，新版本也会自动提醒。默认来源为本仓库。
 
-升级时关闭旧程序，将新版完整 ZIP 解压到新目录后运行。用户数据保存在 `%APPDATA%\digital-world-desktop`，原有员工、任务和配置继续使用。程序目录中的资源、DLL 和子文件夹需要保留完整。
+发现新版后，点击「下载并更新」，可在界面查看下载进度；文件校验完成后点击「重启并安装」。有工作正在执行时会提示稍后安装。
 
-当前采用下载后手动更新方式。
+用户数据保存在 `%APPDATA%\digital-world-desktop`。从免安装版升级、安装新版及卸载程序均保留原有员工、任务和配置。
+
+发布页同时提供完整 ZIP，供需要免安装的用户使用。
